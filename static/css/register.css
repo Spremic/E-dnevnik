@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+}
+body {
+  background-color: #e0fbfc;
+}
+#formRegister {
+  display: block;
+}
+.logo img {
+  display: block;
+}
+.formDesing {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 250px;
+}
+.formDesing h2 {
+  text-align: center;
+}
+.formDesing button {
+  cursor: pointer;
+  margin-top: 15px;
+  width: 100px;
+  height: 40px;
+
+  background-color: rgb(240, 101, 101);
+  border-radius: 5px;
+  border: 0;
+}
+.InputContainerDesing input {
+  font-size: 16px;
+  width: 100%;
+  padding: 15px 10px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+}
+.InputContainerDesing label {
+  font-size: 20px;
+}
+
+.logo img {
+  width: 550px;
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-height: 783px) {
+  .logo img {
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%);
+  }
+  .formDesing {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-height: 642px) {
+  .logo img {
+    display: none;
+  }
+
+  .formDesing {
+    margin-top: 1px;
+  }
+}
+p{
+  color: #ff0404b9;
+}
+span {
+  color: red;
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(219, 45, 45);
+}
+/* iskakuci modal profesor ili ucenik  */
+/* #profesorUcenikForm img {
+    width: 250px;
+  }
+  #profesorUcenikForm {
+    position: absolute;
+  
+    height: 500px;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+  .mainProfesorUcenik {
+    display: flex;
+  }
+  #ucenikForm {
+    margin-left: 270px;
+    cursor: pointer;
+  }
+  #ucenikForm p {
+    text-align: center;
+    font-size: 30px;
+  }
+  #profesorForm p {
+    text-align: center;
+    font-size: 30px;
+  }
+  #profesorForm {
+    cursor: pointer;
+  } */

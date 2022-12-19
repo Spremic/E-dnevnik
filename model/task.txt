@@ -1,0 +1,14 @@
+PROFESOR
+Ime
+prezime
+
+Predmet
+Ucenici
+
+
+
+
+UCENIK 
+ocenaUcenik 
+Ime 
+prezime

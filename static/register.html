@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="/img/Screenshot_2.png" alt="logo" />
+    </div>
+    <form id="formRegister" class="formDesing">
+      <div class="InputContainerDesing">
+        <div>
+          <h2>Register</h2>
+          <br />
+          <label for="nameRegister">Ime i prezime*</label>
+          <input
+            type="text"
+            name="nameRegister"
+            id="nameRegister"
+            placeholder="Unesite ime i prezime "
+          />
+          <p id="nameFormatError"></p>
+        </div>
+        <br />
+        <div>
+          <label for="emailRegister">Email*</label>
+          <input
+            type="text"
+            name="emailRegister"
+            id="emailRegister"
+            placeholder="Unesite Vas email"
+          />
+          <p id="emailFormatError"></p>
+        </div>
+        <br />
+        <div>
+          <label for="passwordRegister">Sifra*</label>
+          <input
+            type="password"
+            name="passwordRegister"
+            id="passwordRegister"
+            placeholder="Unesite Vasu sifru"
+          />
+          <br />
+          <p id="passwordFormatError"></p>
+        </div>
+        <br />
+        <div>
+          <label for="specialKey">Unesite poseban key*</label>
+          <input
+            type="text"
+            name="specialKey"
+            id="specialKey"
+            placeholder="Unesite key"
+          />
+          <p id="keyFormatError"></p>
+          <br />
+        </div>
+        <p>Imate nalog? <span>Uloguj se</span></p>
+        <button id="register" type="submit">Registruj se</button>
+      </div>
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>

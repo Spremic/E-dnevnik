@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(27, 70, 119);
+}
+
+body {
+  background-color: #e0fbfc;
+}
+.red {
+  display: flex;
+  margin-top: -32px;
+  width: 120px;
+  position: fixed;
+  height: 200vh;
+  background-color: rgb(221, 85, 85);
+}
+
+.leftItem img {
+  width: 100%;
+}
+#user {
+  text-align: center;
+  font-weight: bold;
+}
+#logout {
+  margin-top: 40px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+#putanjaProf {
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  margin-top: 9px;
+}
+
+.allItemDesing {
+  margin-top: 10px;
+  margin-left: 150px;
+  max-width: 60%;
+  height: 90px;
+  background: rgb(255, 255, 255);
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.allItemDesing:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid #fff;
+  border-bottom: 13px solid transparent;
+}
+.information {
+  margin-left: 20px;
+}
+.ocena {
+  padding-right: 5px;
+  border-right: 5px solid rgb(221, 85, 85);
+  position: absolute;
+  top: 50%;
+  font-size: 40px;
+  transform: translate(-50%, -50%);
+}
+.predmetProsek {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.predmet {
+  font-weight: bold; 
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+}
+.item2 {
+  margin-top: 15px;
+}
+.nav {
+  margin-left: 120px;
+  max-width: 20000px;
+  height: 30px;
+  background-color: aliceblue;
+}
+
+.nav p {
+  text-align: center;
+  font-size: 24px;
+}
+
+@media only screen and (max-width: 700px) {
+  .predmet {
+    font-size: 20px;
+  }
+
+  .allItemDesing {
+    height: 110px;
+  }
+  .allItemDesing .information .predmetProsek {
+    position: absolute;
+    top: 50%;
+    transform: translate(-5%, -65%);
+  }
+}
+@media only screen and (max-width: 333px) {
+  .predmet {
+    font-size: 16px;
+  }
+  .prosek {
+    font-size: 15px;
+  }
+  .red {
+    width: 60px;
+  }
+  .allItemDesing {
+    margin-left: 90px;
+  }
+  #user {
+    font-size: 14px;
+  }
+  #logout {
+    font-size: 13px;
+  }
+  #putanjaProf {
+    font-size: 15px;
+
+    font-style: bold;
+  }
+  .nav {
+    margin-left: 50px;
+    max-width: 20000px;
+  }
+}

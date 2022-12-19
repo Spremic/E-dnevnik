@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/profesorIndex.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <p>E-dnevnik</p>
+    </div>
+    <div class="red">
+      <div class="leftItem">
+        <img src="/img/5987462.png" alt="userImg" />
+        <p id="user"></p>
+        <p id="logout">Odjavite se</p>
+        <p id="putanjaUcen">Ucenik</p>
+      </div>
+    </div>
+    <div id="allItemProfesor">
+      <section class="allItemDesing pravaObaveze">
+        <div class="information">
+          <p class="predmet">Prava</p>
+        </div>
+      </section>
+
+      <section class="allItemDesing allItemDesing2 ocenjivanje">
+        <div class="information">
+          <p class="predmet">Ocenjivanje</p>
+        </div>
+      </section>
+      <section class="allItemDesing allItemDesing2 ponasanje">
+        <div class="information">
+          <p class="predmet">Ponasanje</p>
+        </div>
+      </section>
+      <section class="allItemDesing allItemDesing2 vestine">
+        <div class="information">
+          <p class="predmet">Vestine</p>
+        </div>
+      </section>
+      <div id="openModal">Dodaj ocenu</div>
+      <form id="addRating">
+        <div class="rating-content">
+          <span class="close">X</span>
+          <!-- <div>
+            <label for="email">Unesite email ucenika</label><br />
+            <input type="text" name="email" id="email" />
+          </div> -->
+          <br />
+          <div>
+            <label for="specialKey">Unesite kljuc ucenika</label><br />
+            <input type="text" name="specialKey" id="specialKey" />
+            <p id="keyErrorWriter" class="error"></p>
+          </div>
+          <br />
+          <div>
+            <label for="predmet">Unesite ime predmet</label><br />
+            <input type="text" name="predmet" id="predmet" />
+            <p id="predmetErrorWriter" class="error"></p>
+          </div>
+          <div>
+            <label for="numberRating">Unesite ocenu uceniku</label><br />
+            <input type="text" name="numberRating" id="numberRating" />
+            <p id="ocenaErrorWriter" class="error"></p>
+          </div>
+
+          <button type="submit">Posalji</button>
+        </div>
+      </form>
+    </div>
+    <script src="profesorI.js"></script>
+  </body>
+</html>
