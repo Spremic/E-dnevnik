@@ -25,9 +25,10 @@ async function login(e) {
   //password validacija
   let passworErrorWriter = document.querySelector("#loginPassError");
   if (result.status === "password") {
-    passworErrorWriter.innerHTML += `${result.password}`;
+    passworErrorWriter.innerHTML = `${result.password}`;
   }
 
+  //ubacivanje tokena
   if (result.status === "ok") {
     localStorage.setItem("token", result.token);
     console.log(result.token);
