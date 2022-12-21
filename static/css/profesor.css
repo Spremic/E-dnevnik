@@ -125,6 +125,9 @@ input {
 .rating-content input {
   height: 30px;
 }
+.rating-content label {
+  margin: 7px 45px;
+}
 #addRating button {
   margin-top: 20px;
   font-size: 20px;
@@ -134,6 +137,12 @@ input {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.error {
+  display: grid;
+  place-items: center;
+  color: red;
+  margin-top: -10px;
 }
 @media only screen and (max-width: 400px) {
   .predmet {

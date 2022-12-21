@@ -51,9 +51,6 @@ async function registerUser(e) {
     document.location = "index.html";
   }
 
-  // else {
-  //   alert(result.error)
-  // }
 }
 
 // provera tokena
